@@ -7,6 +7,6 @@ librosa
 onnxruntime-gpu==1.23.2
 optimum==1.23.3
 soundfile
-torch==2.7.0+cu128
+torch==2.14.1
 torchaudio==2.7.0+cu128
-transformers==4.57.3
+transformers==5.10.1
