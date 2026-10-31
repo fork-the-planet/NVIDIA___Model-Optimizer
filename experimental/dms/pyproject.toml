@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=40.8.0", "wheel"]
+requires = ["setuptools>=84.2.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -9,8 +9,8 @@ requires-python = ">=3.10,<3.14"
 description = "Dynamic Memory Sparsification (DMS) for KV cache compression"
 # NOTE: Run `uv lock --upgrade` in this directory to update the dependencies for vulnerability scanning.
 dependencies = [
-    "transformers==4.57.3",
-    "datasets==4.4.2",
+    "transformers==5.20.2",
+    "datasets==5.1.0",
     "accelerate==1.4.0",
     "lm_eval[ruler]",
 ]
